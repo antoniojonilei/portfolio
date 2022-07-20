@@ -1,18 +1,22 @@
 @charset "utf-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Londrina+Shadow&family=Monoton&family=Teko:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Londrina+Shadow&family=Monoton&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Teko:wght@300;400;500;600;700&display=swap');
 
 :root{
     --font-logo00: 'Monoton', cursive;
     --font-logo: 'Londrina Shadow', cursive;
     --font-bebas: 'Bebas Neue', cursive;
     --font-teko: 'Teko', sans-serif;
-    --cor00: #292533;
+    --font-roboto: 'Roboto', sans-serif;
+    
+    --cor00: #47BFFA;
     --cor01: #05132f;
-    --cor02: #ff5e4c;
+    --cor02: #F2A549;    
     --cor03: #314375;
     --cor04: #292533;
     --cor05: #908cc8;
+    --cor06: #ff5e4c;
+    --corGr: #64FFDA;
 }
 
 *{
@@ -22,8 +26,7 @@
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
-    /* background-color: var(--cor00); */
+    background-color: var(--cor01);
 }
 
 header{
@@ -32,7 +35,7 @@ header{
     padding: 0 25px;
     align-items: center;    
     
-    background-color: var(--cor00);
+    background-color: var(--cor01);
     box-shadow: 1px 1px 8px;
 }
 
@@ -63,12 +66,12 @@ nav a{
     text-decoration: none;
     color: var(--cor05);
     font-size: 1.8em;  
-    margin: 0 20px;  
-    transition: 0.5s ease-in-out;
+    margin: 0 20px;      
 }
 
 nav a:hover{
     color: var(--cor02);
+    transform: translateY(-15px);
 }
 
 .nav-number{
@@ -87,40 +90,51 @@ nav a:hover{
     align-items: center;
     justify-content: space-around;
     margin: 80px 100px 0;
-    height: 63vh;
+    height: 63vh; 
 }
 
 .home{    
-    font-family: var(--font-teko); 
+    font-family: var(--font-bebas); 
     color: var(--cor03); 
-    font-size: 2em;  
-    line-height: 2.2em;
+    font-size: 2.5em;  
+    line-height: 2.7em;   
+    transition: 0.3s; 
+    width: 620px;
+
+    /* margin: 130px 0 0 100px;    */    
+}
+
+.home:hover{
+    transform: translateY(-15px);
 }
 
 .descricao{
-    width: 620px;
+    width: 620px;    
 }
 
 .home-ola{
-    color: var(--cor05);    
+    color: var(--cor05); 
+    line-height: 2em;   
 }
 
 h1{
-    color: var(--cor01);
-    font-size: 3.2em;    
+    color: var(--cor00);
+    font-size: 3em;
+    font-weight: 100;    
 }
 
 h2{
-    font-size: 2em;
+    color: var(--cor02);
+    font-size: 2.5em;
 }
 
 .descricao{
-    text-align: justify;
+    color: var(--cor05);
     line-height: 1em;
 }
 
-.svg{
-    width: 470px;
+.laptop{
+    width: 610px;
 }
 
 /*-------sobre-------*/
