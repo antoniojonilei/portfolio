@@ -36,7 +36,7 @@ header{
     align-items: center;    
     
     background-color: var(--cor01);
-    box-shadow: 1px 1px 8px;
+    /* box-shadow: 1px 1px 8px;       -------   descer e levar junto*/
 }
 
 /*Logo aqui*/
@@ -132,15 +132,103 @@ h2{
 
 .laptop{
     width: 610px;
+    transition: 0.3s ease-in-out;
+}
+
+.laptop:hover{
+    transform: translateY(-15px);
+    
 }
 
 /*-------sobre-------*/
 .about-wrapper{
-    background-color: var(--cor03);
+    margin: 150px 100px 0;
+    font-family: var(--font-roboto);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.profile-pic{
+    max-width: 240px;
+    filter: grayscale(100%); 
+    transition: 0.5s ease-in-out;    
+}
+
+.profile-pic:hover{
+    transform: translateY(-15px) scale(105%);    
+    filter: none;
 }
 
 .about{
-    margin: 80px 100px 0;
-    font-family: var(--font-teko);
+    transition: 0.5s ease-in-out;
+}
+
+.about:hover{
+    transform: translateY(-15px) scale(105%);
+}
+
+h3{
+    font-family: var(--font-bebas);    
+    font-weight: normal;
     font-size: 3em;
+    color: var(--cor02);
+}
+
+.about-article{
+    width: 560px;
+    color: var(--cor05);
+    text-align: left;
+    line-height: 1.5em;
+    margin-left: 40px;    
+}
+
+.about-article a{
+    text-decoration: none;
+    color: var(--cor00);
+}
+
+.about-article a:hover{
+    color: var(--cor02);
+}
+
+.techs-wrapper{
+    margin: 70px 100px 30px;
+    /* border: 1px solid white; */
+}
+
+.techs-wrapper h3{
+    margin: 0 0 40px 130px;
+    font-size: 1.8em;    
+}
+
+.techs{
+    /* border: 1px solid white; */
+    display: flex;  
+    justify-content: space-evenly; 
+}
+
+svg{
+    width: 80px;
+    box-sizing: border-box;
+    /* border: 1px solid white; */
+}
+
+.techs p{
+    font-family: var(--font-bebas);
+    font-size: 2em;
+    color: var(--cor05);
+}
+
+.javascript{
+    width: 92px;
+}    
+
+.techs div p{
+    text-align: center;
+}
+
+.github{
+    width: 96px;
 }
