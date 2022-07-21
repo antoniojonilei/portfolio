@@ -203,19 +203,14 @@ h3{
 
 .techs-wrapper{
     margin: 40px 100px 30px;
-    /* border: 1px solid white; */
 }
 
 .techs-wrapper h3{
     margin: 0 0 10px 130px;
     font-size: 1.8em; 
-    
-    /* border: 1px solid white; */
 }
 
 .techs{
-    /* border: 1px solid white; */
-
     display: flex;  
     justify-content: space-evenly; 
 }
@@ -223,7 +218,6 @@ h3{
 svg{
     width: 60px;
     box-sizing: border-box;
-    /* border: 1px solid white; */
 }
 
 .techs p{
@@ -244,4 +238,90 @@ svg{
     width: 76px;
 }
 
+/*-----------projetos aqui----------*/
+.projetos-wrapper{
+    margin: 180px 100px;
+}
 
+.projetos{
+    width: 1000px;
+    margin: 5px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    /* border: 1px solid white; */
+}
+
+.box-projeto{
+    width: 300px;
+    height: 350px;
+    margin: 15px 5px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+    
+    font-family: var(--font-roboto);  
+    color: var(--cor00);  
+
+    background-color: var(--cor04);
+    border-radius: 5px;      
+
+    transition: 0.5s ease-in-out;
+}
+
+.box-projeto:hover{
+    transform: scale(108%);
+}
+
+.fundo-box-projeto{
+    background-color: var(--cor01);
+    padding: 20px;   
+    border-radius: 10px;
+    
+    filter: opacity(95%);
+    
+         
+}
+
+.titulo-projeto-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.titulo-projeto{
+    font-size: 1.2em;
+    color: var(--cor02);
+    margin: 0 5px; 
+      
+}
+
+.desc-projeto{
+    text-align: center;
+    width: 200px;
+    margin-top: 10px;
+}
+
+.github-projeto{
+    width: 30px;
+    margin: 0 5px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.github-projeto:hover{
+    fill: var(--cor00);
+}
+
+#flappy-bird{
+    background-image: url("../img/01-flappy-bird.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 800px;
+
+    
+}
