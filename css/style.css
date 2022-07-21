@@ -30,22 +30,21 @@ body{
 }
 
 header{
-    
-
-    overflow: hidden;
-    position: fixed;
-    width: 100%;
-
-}
-
-.cabecalho-wrapper{
     display: flex;
     justify-content: space-between;
     padding: 0 25px;
-    align-items: center;    
-    
+    align-items: center; 
     background-color: var(--cor01);
-    box-shadow: 1px 1px 8px;
+
+    box-shadow: 1px 1px 8px; 
+
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+
 }
 
 /*Logo aqui*/
@@ -58,7 +57,7 @@ header{
 
 .logo{
     font-family: var(--font-logo00);
-    font-size: 5em;
+    font-size: 4.4em;
     color: var(--cor05);
     padding-left: 80px;    
 }
@@ -97,7 +96,7 @@ nav a:hover{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: 80px 100px 0;
+    margin: 180px 100px 0;
     height: 63vh; 
 }
 
@@ -203,35 +202,38 @@ h3{
 }
 
 .techs-wrapper{
-    margin: 70px 100px 30px;
+    margin: 40px 100px 30px;
     /* border: 1px solid white; */
 }
 
 .techs-wrapper h3{
-    margin: 0 0 40px 130px;
-    font-size: 1.8em;    
+    margin: 0 0 10px 130px;
+    font-size: 1.8em; 
+    
+    /* border: 1px solid white; */
 }
 
 .techs{
     /* border: 1px solid white; */
+
     display: flex;  
     justify-content: space-evenly; 
 }
 
 svg{
-    width: 80px;
+    width: 60px;
     box-sizing: border-box;
     /* border: 1px solid white; */
 }
 
 .techs p{
     font-family: var(--font-bebas);
-    font-size: 2em;
+    font-size: 1.8em;
     color: var(--cor05);
 }
 
 .javascript{
-    width: 92px;
+    width: 72px;
 }    
 
 .techs div p{
@@ -239,5 +241,5 @@ svg{
 }
 
 .github{
-    width: 96px;
+    width: 76px;
 }
