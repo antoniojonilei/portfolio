@@ -30,13 +30,22 @@ body{
 }
 
 header{
+    
+
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+
+}
+
+.cabecalho-wrapper{
     display: flex;
     justify-content: space-between;
     padding: 0 25px;
     align-items: center;    
     
     background-color: var(--cor01);
-    /* box-shadow: 1px 1px 8px;       -------   descer e levar junto*/
+    box-shadow: 1px 1px 8px;
 }
 
 /*Logo aqui*/
