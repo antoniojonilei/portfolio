@@ -255,7 +255,7 @@ svg{
 
 .box-projeto{
     width: 300px;
-    height: 350px;
+    height: 330px;
     margin: 15px 5px;
 
     display: flex;
@@ -270,6 +270,9 @@ svg{
     border-radius: 5px;      
 
     transition: 0.5s ease-in-out;
+
+    border: 0.7px solid #314375;
+    
 }
 
 .box-projeto:hover{
@@ -306,6 +309,15 @@ svg{
     margin-top: 10px;
 }
 
+.desc-projeto a{
+    text-decoration: none;
+    color: var(--cor00);
+}
+
+.desc-projeto a:hover{
+    color: white;
+}
+
 .github-projeto{
     width: 30px;
     margin: 0 5px;
@@ -321,7 +333,62 @@ svg{
     background-image: url("../img/01-flappy-bird.jpg");
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: 800px;
+    background-size: 800px;   
+    filter: grayscale(17%); 
+}
 
-    
+#clone-netflix{
+    background-image: url("../img/02-clone-netflix.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 700px;  
+}
+
+#calculadora-js{
+    background-image: url("../img/03-calculadora-javascript.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 850px; 
+}
+
+#clone-insta{
+    background-image: url("../img/04-clone-instagram.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 680px; 
+}
+
+#jogo-memoria{
+    background-image: url("../img/05-jogo-da-memoria.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 700px;
+}
+
+#calculadora-imc{
+    background-image: url("../img/06-calculadora-imc.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 1100px;
+}
+
+#rocketnews{
+    background-image: url("../img/07-rocketnews.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 680px;
+}
+
+#ver-idade{
+    background-image: url("../img/08-verificador-de-idade.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 850px;
+}
+
+#video-game{
+    background-image: url("../img/09-projeto-video-game.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 700px;
 }
