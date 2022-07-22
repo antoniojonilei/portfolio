@@ -29,6 +29,16 @@ html{
     scroll-behavior: smooth;
 }
 
+html::-webkit-scrollbar{
+    width: 7px; 
+    background-color: var(--cor01);   
+}
+
+html::-webkit-scrollbar-thumb{
+    background-color: var(--cor03);
+    border-radius: 5px;    
+}
+
 body{
     background-color: var(--cor01);
 }
@@ -160,8 +170,7 @@ h2{
 }
 
 .laptop:hover{
-    transform: translateY(-15px);
-    
+    transform: translateY(-15px);    
 }
 
 /*-------sobre-------*/
@@ -264,9 +273,7 @@ svg{
     margin: 5px auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-
-    /* border: 1px solid white; */
+    justify-content: space-around;  
 }
 
 .box-projeto{
@@ -298,25 +305,20 @@ svg{
 .fundo-box-projeto{
     background-color: var(--cor01);
     padding: 20px;   
-    border-radius: 10px;
-    
-    filter: opacity(95%);
-    
-         
+    border-radius: 10px;    
+    filter: opacity(95%);          
 }
 
 .titulo-projeto-wrapper{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    
+    justify-content: space-around;    
 }
 
 .titulo-projeto{
     font-size: 1.2em;
     color: var(--cor02);
-    margin: 0 5px; 
-      
+    margin: 0 5px;       
 }
 
 .desc-projeto{
@@ -428,7 +430,6 @@ svg{
     font-size: 1.1em;
     text-align: center;
     line-height: 1.7em;
-
     color: var(--cor05);    
 }
 
@@ -444,7 +445,6 @@ svg{
     text-decoration: none;
     font-family: var(--font-bebas);
     font-size: 1.5em;
-
     color: var(--cor00);
 
     border: 1px solid #314375;
