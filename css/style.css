@@ -25,6 +25,7 @@
     box-sizing: border-box;
 }
 
+/*scroll style*/
 html{
     scroll-behavior: smooth;
 }
@@ -38,6 +39,8 @@ html::-webkit-scrollbar-thumb{
     background-color: var(--cor03);
     border-radius: 5px;    
 }
+
+/*fim scroll style*/
 
 body{
     background-color: var(--cor01);
