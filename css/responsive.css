@@ -146,7 +146,7 @@
     
 }
 
-@media (max-width: 400px) {    
+@media (max-width: 430px) {    
     
     .logo{
         font-family: var(--font-logo00);
@@ -162,16 +162,6 @@
         display: none;
         
     }    
-  
-    /* nav a{
-        font-family: var(--font-bebas);
-        font-weight: normal;
-        text-decoration: none;
-        color: var(--cor05);
-        font-size: 1.8em;  
-        margin: 0 20px; 
-        transition: 0.5s;
-    } */
 
     .home{             
         font-size: 1.3em;  
