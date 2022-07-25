@@ -89,7 +89,7 @@ span{
 
 /*navigation*/
 ul{
-    display: flex;
+    display: flex;    
 }
 
 li{
@@ -276,7 +276,7 @@ svg{
     margin: 5px auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;  
+    justify-content: space-around;     
 }
 
 .box-projeto{

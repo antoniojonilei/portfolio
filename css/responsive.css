@@ -1,0 +1,257 @@
+@media (max-width: 1400px){
+    .home-wrapper{        
+        justify-content: space-between;
+        margin: 140px 100px 0;
+    }
+
+    .home{
+        font-size: 2em;
+    }
+
+    .laptop{
+        width: 500px;
+    }
+
+    .descricao{
+        width: 500px;
+    }
+
+    .projetos{
+        width: 800px;
+        margin: 5px auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;  
+    }
+}
+
+@media (max-width: 1024px) {  
+
+    .home-wrapper{
+        
+        justify-content: space-between;
+        margin: 140px 60px 0;
+    }
+
+    .home{
+        font-size: 1.5em;
+    }
+
+    .laptop{
+        width: 400px;
+    }
+
+    .descricao{
+        width: 400px;
+    }
+}
+
+@media (max-width: 800px) {
+    
+
+
+    .home-wrapper{        
+        margin: 140px 20px 0;        
+    }
+   
+    .laptop{
+        display: none;
+    }
+
+    .profile-pic{
+        display: none;   
+    }   
+
+    .about-article{
+        width: 350px;
+        margin-top: 10px;
+    }
+
+    .techs-wrapper{
+        margin: 40px 50px 30px;
+    }
+
+    .techs-wrapper h3{
+        font-size: 1.5em;
+        margin: auto;
+    }
+
+    .techs{
+        display: flex;  
+        justify-content: space-between; 
+        width: 300px;
+        align-items: center;
+        margin: 0 auto;
+
+        
+    }
+
+    .techs p{        
+        font-size: 1.2em;        
+    }
+
+    svg{
+        width: 40px;
+        box-sizing: border-box;
+    }
+
+    .javascript{
+        width: 52px;
+    } 
+
+    .github{
+        width: 56px;
+    }
+
+    .projetos-wrapper{
+        margin: 120px 55px 0;       
+       
+    }
+
+    .projetos{
+        width: 300px;                
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center;    
+
+        padding: 0;      
+        
+    }
+
+    .box-projeto{
+        width: 270px;
+        height: 300px;
+        margin: 8px 2px;      
+    }
+
+    .desc-contato{
+       
+        width: 320px;
+        font-family: var(--font-roboto);
+          
+    }
+
+    .link-contato{
+        width: 320px;        
+    }
+
+    .link-contato a{
+        padding: 12px 32px; 
+        font-size: 1.2em;         
+    }
+
+    .link-contato{
+        margin-bottom: 0;
+    }
+    
+}
+
+@media (max-width: 400px) {    
+    
+    .logo{
+        font-family: var(--font-logo00);
+        font-size: 2.5em;
+        color: var(--cor05);
+        padding-left: 5px;  
+        margin: 0 5px;  
+        width: 100px;
+    }
+
+    ul{
+        display: flex;
+        display: none;
+        
+    }    
+  
+    /* nav a{
+        font-family: var(--font-bebas);
+        font-weight: normal;
+        text-decoration: none;
+        color: var(--cor05);
+        font-size: 1.8em;  
+        margin: 0 20px; 
+        transition: 0.5s;
+    } */
+
+    .home{             
+        font-size: 1.3em;  
+        line-height: 2.8em;           
+        width: 380px;         
+      
+    }
+
+    .descricao{
+        width: 320px;
+        line-height: 1.5em;   
+        
+    }
+    
+    .about-article{
+        width: 280px;
+        margin-top: 10px;
+    }
+
+    .techs-wrapper{
+        margin: 40px 50px 30px;
+    }
+
+    .techs-wrapper h3{
+        font-size: 1.5em;
+
+    }
+
+    .techs{
+        display: flex;  
+        justify-content: space-between; 
+        width: 280px;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .techs p{        
+        font-size: 1.2em;
+        
+    }
+
+    .projetos{
+        width: 280px;                
+        flex-direction: column;
+        justify-content: space-around;  
+    }
+
+    .box-projeto{
+        width: 270px;
+        height: 300px;
+        margin: 8px 2px;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;    
+        
+        font-family: var(--font-roboto);  
+        color: var(--cor00);        
+    
+        transition: 0.5s ease-in-out;         
+    }
+
+    .desc-contato{
+       
+        width: 330px;
+        font-family: var(--font-roboto);
+          
+    }
+
+    .link-contato{
+        width: 330px;        
+    }
+
+    .link-contato a{
+        padding: 12px 32px; 
+        font-size: 1.1em;         
+    }
+
+    footer{
+        padding: 20px 0;
+    }
+}
