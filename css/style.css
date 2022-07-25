@@ -64,7 +64,12 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 3;
+    height: 100px;
+        
+    z-index: 1;
+
+
+    
 
 }
 
@@ -73,7 +78,9 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;       
+    justify-content: space-around; 
+    
+    /* border: 1px solid white; */
 }
 
 .logo{
@@ -88,8 +95,23 @@ span{
 }
 
 /*navigation*/
+
+nav{
+    background-color: var(--cor01);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+    /* border: 1px solid white; */
+
+}
+
+
 ul{
-    display: flex;    
+    display: flex; 
+    
+    /* border: 1px solid white  */
 }
 
 li{
@@ -118,6 +140,13 @@ nav a:hover{
 .curriculo{
     color: var(--cor03);
 }
+
+
+/*HAMBURGUER AQUI --------------------------------*/
+.label-menu, .checkbox{
+    display: none;
+}
+
 
 /*01.home*/
 
