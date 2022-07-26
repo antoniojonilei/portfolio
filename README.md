@@ -1,7 +1,6 @@
 # portfolio - v1
  Primeira versão do meu portfolio:
  
- <p><img>
+ <p><img src="img/print-portfolio.jpg" alt="print do portfolio"></p>
  
- ##[link:](https://antoniojonilei.github.io/portfolio/)
-
+ ##[Acesse aqui](https://antoniojonilei.github.io/portfolio/)
