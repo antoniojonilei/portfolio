@@ -26,7 +26,6 @@
 }
 
 @media (max-width: 1024px) {  
-
     .home-wrapper{        
         justify-content: space-between;
         margin: 140px 60px 0;
@@ -45,21 +44,14 @@
     }
 }
 
-@media (max-width: 900px){    
-
-
+@media (max-width: 900px){  
     .logo{
         padding-left: 0;
-        /* border: 1px solid white; */
-    }
-
-
-    
+    } 
 }
 
 @media (max-width: 850px) {
     /*hamburguer active*/
-
     .hamburguer{
         display: block;
     }
@@ -90,8 +82,6 @@
        border-radius: 0 0 0 5px;
        box-shadow: 1px 1px 3px;
        z-index: 1;
-
-       /* border: 1px solid white; */
     }
 
     .nav-item{
@@ -101,8 +91,8 @@
     .nav-menu.active{
         left:80%;
     }
-
      /*hamburguer active*/
+
     ul{
         display: block;
         position: absolute;
@@ -184,9 +174,7 @@
         flex-direction: column;
         justify-content: center; 
         align-items: center;    
-
-        padding: 0;      
-        
+        padding: 0;       
     }
 
     .box-projeto{
@@ -215,10 +203,8 @@
     
 }
 
-
 @media (max-width: 450px) {    
     /*hambrguer aqui*/
-
     .nav-menu{
         position: fixed;
         left: 100%;
@@ -233,8 +219,6 @@
        border-radius: 0 0 0 5px;
        box-shadow: 1px 1px 3px;
        z-index: 1;
-
-       /* border: 1px solid white; */
     }
 
     .nav-number{
@@ -244,7 +228,6 @@
     .nav-menu.active{
         left: 60%;
     }
-
     /*hambrguer aqui*/
 
     .logo{
@@ -259,8 +242,7 @@
     .home{             
         font-size: 1.3em;  
         line-height: 2.8em;           
-        width: 380px;         
-      
+        width: 380px;          
     }
 
     .home-wrapper{
@@ -269,8 +251,7 @@
 
     .descricao{
         width: 320px;
-        line-height: 1.5em;   
-        
+        line-height: 1.5em;       
     }
     
     .about-article{
@@ -284,7 +265,6 @@
 
     .techs-wrapper h3{
         font-size: 1.5em;
-
     }
 
     .techs{
@@ -296,8 +276,7 @@
     }
 
     .techs p{        
-        font-size: 1.2em;
-        
+        font-size: 1.2em;   
     }
 
     .projetos{
@@ -322,11 +301,9 @@
         transition: 0.5s ease-in-out;         
     }
 
-    .desc-contato{
-       
+    .desc-contato{   
         width: 330px;
-        font-family: var(--font-roboto);
-          
+        font-family: var(--font-roboto);         
     }
 
     .link-contato{

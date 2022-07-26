@@ -39,7 +39,6 @@ html::-webkit-scrollbar-thumb{
     background-color: var(--cor03);
     border-radius: 5px;    
 }
-
 /*fim scroll style*/
 
 body{
@@ -76,8 +75,6 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: space-around; 
-    
-    /* border: 1px solid white; */
 }
 
 .logo{
@@ -98,16 +95,10 @@ nav{
     align-items: center;
     justify-content: space-between;
     width: 100%;
-
-    /* border: 1px solid white; */
-
 }
-
 
 ul{
     display: flex; 
-    
-    /* border: 1px solid white  */
 }
 
 li{
@@ -137,8 +128,7 @@ nav a:hover{
     color: var(--cor03);
 }
 
-
-/*HAMBURGUER AQUI --------------------------------*/
+/*HAMBURGUER AQUI */
     .hamburguer{
         display: none;
         cursor: pointer;
@@ -301,7 +291,7 @@ svg{
     width: 76px;
 }
 
-/*-----------projetos aqui----------*/
+/*projetos aqui-*/
 .projetos-wrapper{
     margin: 120px 100px 0;
 }
@@ -332,8 +322,7 @@ svg{
 
     transition: 0.5s ease-in-out;
 
-    border: 0.7px solid #314375;
-    
+    border: 0.7px solid #314375;    
 }
 
 .box-projeto:hover{
@@ -450,7 +439,6 @@ svg{
 }
 
 /*contato aqui ---*/
-
 .contato-wrapper{
     margin: 100px auto;
 }
