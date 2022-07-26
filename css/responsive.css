@@ -227,7 +227,7 @@
         background-color:var(--cor01);
         text-align: left;
         flex-direction: column;
-        width: 300px;
+        width: 200px;
         transition: 0.3s ease-in-out;
 
        border-radius: 0 0 0 5px;
@@ -242,7 +242,7 @@
     }
 
     .nav-menu.active{
-        left: 65%;
+        left: 60%;
     }
 
     /*hambrguer aqui*/
