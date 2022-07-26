@@ -58,6 +58,51 @@
 }
 
 @media (max-width: 850px) {
+    /*hamburguer active*/
+
+    .hamburguer{
+        display: block;
+    }
+
+    .hamburguer.active .bar:nth-child(2){
+        opacity: 0;
+    }
+
+    .hamburguer.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburguer.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-menu{
+        position: fixed;
+        left: 100%;
+        top: 75px;
+        gap: 0;
+        background-color:var(--cor01);
+        text-align: left;
+        flex-direction: column;
+        width: 300px;
+        transition: 0.3s ease-in-out;
+
+       border-radius: 0 0 0 5px;
+       box-shadow: 1px 1px 3px;
+       z-index: 1;
+
+       /* border: 1px solid white; */
+    }
+
+    .nav-item{
+        margin: 16px 0;
+    }
+
+    .nav-menu.active{
+        left:80%;
+    }
+
+     /*hamburguer active*/
     ul{
         display: block;
         position: absolute;
@@ -76,20 +121,6 @@
         gap: 0.5rem;
         padding-block: 1rem;
         cursor: pointer;
-    }
-
-    .hamburguer{
-        border-top: 2px solid;
-        width: 20px;
-    }
-
-    .hamburguer::before, .hamburguer::after{
-        content: "";
-        display: block;
-        width: 20px;
-        height: 2px;
-        background: currentColor;
-        margin-top: 5px;
     }
 
     .home-wrapper{        
@@ -164,11 +195,9 @@
         margin: 8px 2px;      
     }
 
-    .desc-contato{
-       
+    .desc-contato{       
         width: 320px;
-        font-family: var(--font-roboto);
-          
+        font-family: var(--font-roboto);          
     }
 
     .link-contato{
@@ -188,7 +217,36 @@
 
 
 @media (max-width: 450px) {    
-    
+    /*hambrguer aqui*/
+
+    .nav-menu{
+        position: fixed;
+        left: 100%;
+        top: 75px;
+        gap: 0;
+        background-color:var(--cor01);
+        text-align: left;
+        flex-direction: column;
+        width: 300px;
+        transition: 0.3s ease-in-out;
+
+       border-radius: 0 0 0 5px;
+       box-shadow: 1px 1px 3px;
+       z-index: 1;
+
+       /* border: 1px solid white; */
+    }
+
+    .nav-number{
+        margin: 18px 0;
+    }
+
+    .nav-menu.active{
+        left: 65%;
+    }
+
+    /*hambrguer aqui*/
+
     .logo{
         font-family: var(--font-logo00);
         font-size: 2.5em;
@@ -203,6 +261,10 @@
         line-height: 2.8em;           
         width: 380px;         
       
+    }
+
+    .home-wrapper{
+        margin-top: 100px;
     }
 
     .descricao{
@@ -247,7 +309,7 @@
     .box-projeto{
         width: 270px;
         height: 300px;
-        margin: 8px 2px;
+        margin: 16px 6px;
     
         display: flex;
         flex-direction: column;
